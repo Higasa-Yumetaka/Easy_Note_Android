@@ -1,0 +1,12 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 背景颜色 -->
+    <item android:state_focused="false" android:state_pressed="false" android:drawable="@color/memo_item" />
+    <item android:state_focused="true" android:state_pressed="false" android:drawable="@color/memo_item" />
+    <item android:state_focused="false" android:state_pressed="true" android:drawable="@color/memo_item" />
+    <item android:state_focused="true" android:state_pressed="true" android:drawable="@color/memo_item" />
+    <!-- 边框颜色 -->
+    <item android:state_focused="false" android:state_pressed="false" android:drawable="@drawable/edit_text_border_normal" />
+    <item android:state_focused="true" android:state_pressed="false" android:drawable="@drawable/edit_text_border_focused" />
+    <item android:state_focused="false" android:state_pressed="true" android:drawable="@drawable/edit_text_border_pressed" />
+    <item android:state_focused="true" android:state_pressed="true" android:drawable="@drawable/edit_text_border_pressed" />
+</selector>
