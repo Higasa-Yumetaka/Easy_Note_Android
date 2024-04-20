@@ -25,14 +25,14 @@
             android:textSize="36sp"
             android:textColor="@color/black"
             android:text="@string/memo"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="8dp"
-            android:id="@+id/tv_todo"
-            android:textSize="24sp"
-            android:textColor="@color/memo_gray"
-            android:text="@string/todo"/>
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="8dp"-->
+<!--            android:id="@+id/tv_todo"-->
+<!--            android:textSize="24sp"-->
+<!--            android:textColor="@color/memo_gray"-->
+<!--            android:text="@string/todo"/>-->
         <View
             android:layout_width="0dp"
             android:layout_height="0dp"

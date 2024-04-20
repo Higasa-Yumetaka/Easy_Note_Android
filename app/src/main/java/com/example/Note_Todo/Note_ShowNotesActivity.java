@@ -60,11 +60,11 @@ public class Note_ShowNotesActivity extends AppCompatActivity {
         });
 
         //待办页面接口
-        findViewById(R.id.tv_todo).setOnClickListener(v -> {
-            dbHelper.close();
-            Intent intent = new Intent(Note_ShowNotesActivity.this, Todo_ShowTodoActivity.class);
-            startActivity(intent);
-        });
+//        findViewById(R.id.tv_todo).setOnClickListener(v -> {
+//            dbHelper.close();
+//            Intent intent = new Intent(Note_ShowNotesActivity.this, Todo_ShowTodoActivity.class);
+//            startActivity(intent);
+//        });
 
         // 搜索
         EditText etSearch = findViewById(R.id.search_edit_text);
